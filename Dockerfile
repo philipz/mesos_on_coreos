@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER tim@magnetic.io
+MAINTAINER philipzheng@gmail.com
 
 # This Dockerfile does the basic install of Mesosphere stack on CoreOS using the Ubuntu base Docker container.
 # Installation details mostly copied from  https://mesosphere.io/learn/run-docker-on-mesosphere/
