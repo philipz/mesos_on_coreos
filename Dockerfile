@@ -42,9 +42,9 @@ RUN sudo sed -i '$acomplete -F _docker docker' /etc/bash_completion.d/docker.io
 # install mesos, marathon and deimos
 RUN sudo apt-get -y install mesos=0.20.1-1.0.ubuntu1404
 
-RUN sudo apt-get -y install marathon=0.7.1-1.1
+RUN sudo apt-get -y install marathon=0.7.3-1.0
 
-RUN sudo apt-get -y install chronos=2.1.0
+RUN sudo apt-get -y install chronos=2.2.0-0.1.20141002204602
 
 # Add the bootstrap script
 
